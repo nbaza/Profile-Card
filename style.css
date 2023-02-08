@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  background-color: #19a1ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("images/bg-pattern-top.svg");
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: 0vh;
+}
+
+.maindiv {
+  width: 326px;
+  height: 374px;
+  border-radius: 15px;
+  margin: auto;
+  background-color: white;
+  background-image: url("images/bg-pattern-card.svg");
+  background-size: 326px 140px;
+  background-repeat: no-repeat;
+}
+
+#victorimage {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+
+#victorname {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Kumbh Sans";
+  margin-top: 19px;
+  text-align: center;
+  color: #2e3349;
+}
+
+#age {
+  font-weight: 400;
+  color: #6b7082;
+  margin-left: 8.5px;
+}
+
+#city {
+  font-weight: 400;
+  color: #6b7082;
+  font-family: "Kumbh Sans";
+  font-size: 14px;
+  text-align: center;
+  margin-top: 13px;
+}
+
+hr {
+  margin-top: 28px;
+  height: 1px;
+  background: #e8e9ec;
+  border: none;
+  height: 1px;
+  margin-bottom: 24px;
+}
+
+.count {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Kumbh Sans";
+  display: inline;
+}
+
+#followcount {
+  margin-left: 53px;
+  margin-top: 24px;
+}
+
+#likecount {
+  margin-left: 50.5px;
+}
+
+#photocount {
+  margin-left: 49px;
+}
+
+.followlikephoto {
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "Kumbh Sans";
+  display: inline;
+  color: #6b7082;
+  letter-spacing: 1.5px;
+}
+
+#followers {
+  margin-left: 40.5px;
+}
+#likes {
+  margin-left: 45.5px;
+}
+#photos {
+  margin-left: 56.5px;
+}
+
+#frame {
+  width: 96px;
+  height: 96px;
+  margin-top: 87px;
+  margin-left: 110px;
+  background-color: white;
+  padding: 5px 5px;
+  border-radius: 50%;
+}
