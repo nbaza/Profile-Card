@@ -5,10 +5,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("images/bg-pattern-top.svg");
-  background-repeat: no-repeat;
-  background-position-y: top;
-  background-position-x: 0vh;
+  background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom 40vh right 50vw, left 48vw top 50vh;
 }
 
 .maindiv {
@@ -17,8 +16,8 @@ body {
   border-radius: 15px;
   margin: auto;
   background-color: white;
-  background-image: url("images/bg-pattern-card.svg");
-  background-size: 326px 140px;
+  background-image: url("images/bg-pattern-bottom.svg");
+  background-size: 100% 140px;
   background-repeat: no-repeat;
 }
 
