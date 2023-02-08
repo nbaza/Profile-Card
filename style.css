@@ -16,7 +16,7 @@ body {
   border-radius: 15px;
   margin: auto;
   background-color: white;
-  background-image: url("images/bg-pattern-bottom.svg");
+  background-image: url("images/bg-pattern-card.svg");
   background-size: 100% 140px;
   background-repeat: no-repeat;
 }
